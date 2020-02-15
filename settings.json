@@ -4,9 +4,6 @@
     "vim.useSystemClipboard": true,
     "vim.leader": ",",
     "vim.useCtrlKeys": true,
-    "vim.handleKeys": {
-        "<C-d>": true
-    },
     "vim.autoindent": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         { "before": ["<Leader>", "w"], "commands": [":w!"] },
