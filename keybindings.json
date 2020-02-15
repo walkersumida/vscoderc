@@ -1,0 +1,76 @@
+[
+    {
+        "key": "ctrl+d",
+        "command": "deleteRight",
+        "when": "editorTextFocus && vim.mode == 'Insert'"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "search.action.focusNextSearchResult",
+        "when": "searchViewletVisible && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "search.action.focusPreviousSearchResult",
+        "when": "searchViewletVisible && vim.mode == 'Normal'"
+    },
+    {
+        "key": "j",
+        "command": "list.focusDown",
+        "when": "listFocus"
+    },
+    {
+        "key": "k",
+        "command": "list.focusUp",
+        "when": "listFocus"
+    },
+    {
+        "key": "enter",
+        "command": "list.select",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "o",
+        "command": "list.toggleExpand",
+        "when": "listFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "workbench.action.quickOpen",
+        "when": "editorTextFocus && !editorReadOnly && vim.mode == 'Normal'"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.view.explorer",
+        "when": "openEditorsFocus"
+    },
+    {
+        "key": "tab",
+        "command": "editor.action.showHover",
+        "when": "vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.navigateDown",
+        "when": "vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.navigateUp",
+        "when": "vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft",
+        "when": "vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight",
+        "when": "vim.mode == 'Normal'"
+    }
+]

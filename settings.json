@@ -1,0 +1,29 @@
+{
+    "editor.fontSize": 16,
+    "workbench.tree.indent": 15,
+    "vim.useSystemClipboard": true,
+    "vim.leader": ",",
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-d>": true
+    },
+    "vim.autoindent": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["<Leader>", "w"], "commands": [":w!"] },
+        { "before": [";"], "after": [":"] },
+        { "before": ["<space>"], "after": ["/"] },
+        { "before": ["<Leader>", "e"], "commands": ["workbench.files.action.focusOpenEditorsView"] },
+        { "before": ["<Leader>", "g"], "commands": ["workbench.action.findInFiles"] },
+        { "before": ["<Leader>", "n", "f"], "commands": ["workbench.view.explorer"] },
+        { "before": ["<Leader>", "s"], "commands": ["workbench.action.splitEditorDown"] },
+        { "before": ["<Leader>", "v"], "commands": ["workbench.action.splitEditorRight"] },
+        { "before": ["ctrl+]"], "commands": ["editor.action.revealDefinition"] },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        { "before": ["="], "commands": ["editor.action.reindentlines"] },
+        { "before": ["<"], "commands": ["editor.action.outdentLines"]},
+    ],
+    "vim.insertModeKeyBindings": [
+        { "before": ["j", "j"], "after": ["<Esc>"] }
+    ]
+}
