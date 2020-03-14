@@ -7,6 +7,10 @@
     "vim.autoindent": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         { "before": ["<Leader>", "w"], "commands": [":w!"] },
+        { "before": ["<Leader>", "n", "n"], "commands": ["workbench.view.explorer"],
+            "when": ["!explorerViewletVisible && vim.mode != 'SearchInProgressMode' && vim.mode != 'Insert'"] },
+        { "before": ["<Leader>", "n", "n"], "commands": ["workbench.action.toggleSidebarVisibility"],
+            "when": ["explorerViewletVisible && !searchViewletVisible && !inDebugMode && vim.mode != 'SearchInProgressMode' && vim.mode != 'Insert'"] },
         { "before": [";"], "after": [":"] },
         { "before": ["<space>"], "after": ["/"] },
         { "before": ["<Leader>", "e"], "commands": ["workbench.files.action.focusOpenEditorsView"] },
