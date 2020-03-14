@@ -22,5 +22,6 @@
     ],
     "vim.insertModeKeyBindings": [
         { "before": ["j", "j"], "after": ["<Esc>"] }
-    ]
+    ],
+    "files.autoGuessEncoding": true
 }
