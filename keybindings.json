@@ -71,7 +71,7 @@
     {
         "key": "ctrl+h",
         "command": "workbench.action.navigateLeft",
-        "when": "vim.mode == 'Normal'"
+        "when": "vim.mode == 'Normal' && editorTextFocus"
     },
     {
         "key": "ctrl+l",
