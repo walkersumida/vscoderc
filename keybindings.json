@@ -25,14 +25,19 @@
         "when": "listFocus"
     },
     {
-        "key": "enter",
+        "key": "Enter",
         "command": "list.select",
-        "when": "explorerViewletVisible && filesExplorerFocus"
+        "when": "explorerViewletFocus && explorerViewletVisible && !explorerResourceIsFolder && !inputFocus"
     },
     {
         "key": "o",
+        "command": "list.select",
+        "when": "explorerViewletFocus && explorerViewletVisible && !explorerResourceIsFolder && !inputFocus"
+    },
+    {
+        "key": "Enter",
         "command": "list.toggleExpand",
-        "when": "listFocus"
+        "when": "explorerViewletFocus && explorerViewletVisible && explorerResourceIsFolder && !inputFocus"
     },
     {
         "key": "ctrl+f",
