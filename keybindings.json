@@ -40,7 +40,7 @@
         "when": "explorerViewletFocus && explorerViewletVisible && explorerResourceIsFolder && !inputFocus"
     },
     {
-        "key": "ctrl+f",
+        "key": "right",
         "command": "workbench.action.quickOpen",
         "when": "editorTextFocus && !editorReadOnly && vim.mode == 'Normal'"
     },
