@@ -17,12 +17,12 @@
     {
         "key": "j",
         "command": "list.focusDown",
-        "when": "listFocus"
+        "when": "listFocus && !inputFocus"
     },
     {
         "key": "k",
         "command": "list.focusUp",
-        "when": "listFocus"
+        "when": "listFocus && !inputFocus"
     },
     {
         "key": "Enter",
