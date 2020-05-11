@@ -5,6 +5,7 @@
     "vim.leader": ",",
     "vim.useCtrlKeys": true,
     "vim.autoindent": true,
+    "vim.whichwrap": "h,l,<,>,[,]",
     "vim.normalModeKeyBindingsNonRecursive": [
         { "before": ["<Leader>", "w"], "commands": [":w!"] },
         { "before": ["<Leader>", "n", "n"], "commands": ["workbench.view.explorer"],
