@@ -54,7 +54,7 @@
         "when": "openEditorsFocus"
     },
     {
-        "key": "tab",
+        "key": "ctrl+i",
         "command": "editor.action.showHover",
         "when": "vim.mode == 'Normal'"
     },
