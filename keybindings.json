@@ -1,5 +1,10 @@
 [
     {
+        "key": "ctrl+f",
+        "command": "workbench.action.quickOpen",
+        "when": "editorTextFocus && !editorReadOnly && vim.mode == 'Normal'"
+    },
+    {
         "key": "ctrl+d",
         "command": "deleteRight",
         "when": "editorTextFocus && vim.mode == 'Insert'"
@@ -38,11 +43,6 @@
         "key": "Enter",
         "command": "list.toggleExpand",
         "when": "explorerViewletFocus && explorerViewletVisible && explorerResourceIsFolder && !inputFocus"
-    },
-    {
-        "key": "right",
-        "command": "workbench.action.quickOpen",
-        "when": "editorTextFocus && !editorReadOnly && vim.mode == 'Normal'"
     },
     {
         "key": "cmd+p",
