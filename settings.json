@@ -30,5 +30,11 @@
         { "before": ["j", "j"], "after": ["<Esc>"] }
     ],
     "files.autoGuessEncoding": true,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "editor.tokenColorCustomizations": null,
+    "workbench.colorCustomizations": {
+        "list.activeSelectionBackground": "#4D4D4D",
+        "list.focusBackground": "#5D5D5D"
+    },
+    "editor.tabSize": 2
 }
