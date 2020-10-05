@@ -30,6 +30,7 @@
         { "before": ["j", "j"], "after": ["<Esc>"] }
     ],
     "files.autoGuessEncoding": true,
+    "files.trimTrailingWhitespace": true,
     "editor.minimap.enabled": false,
     "editor.tokenColorCustomizations": null,
     "workbench.colorCustomizations": {
