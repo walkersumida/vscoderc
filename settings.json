@@ -38,5 +38,6 @@
         "list.focusBackground": "#5D5D5D"
     },
     "editor.tabSize": 2,
-    "workbench.editor.revealIfOpen": true
+    "workbench.editor.revealIfOpen": true,
+    "editor.wordWrap": "on"
 }
