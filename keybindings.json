@@ -12,12 +12,12 @@
     {
         "key": "ctrl+n",
         "command": "search.action.focusNextSearchResult",
-        "when": "searchViewletVisible && vim.mode == 'Normal'"
+        "when": "inSearchEditor && vim.mode == 'Normal'"
     },
     {
         "key": "ctrl+p",
         "command": "search.action.focusPreviousSearchResult",
-        "when": "searchViewletVisible && vim.mode == 'Normal'"
+        "when": "inSearchEditor && vim.mode == 'Normal'"
     },
     {
         "key": "j",
