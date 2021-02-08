@@ -5,6 +5,11 @@
         "when": "editorTextFocus && !editorReadOnly && vim.mode == 'Normal'"
     },
     {
+        "key": "ctrl+b",
+        "command": "workbench.action.quickOpen",
+        "when": "editorTextFocus && !editorReadOnly && vim.mode == 'Normal'"
+    },
+    {
         "key": "ctrl+d",
         "command": "deleteRight",
         "when": "editorTextFocus && vim.mode == 'Insert'"
