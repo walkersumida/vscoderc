@@ -17,8 +17,6 @@
         { "before": ["<Leader>", "e"], "commands": ["workbench.files.action.focusOpenEditorsView"] },
         { "before": ["<Leader>", "g"], "commands": ["workbench.action.findInFiles"] },
         { "before": ["<Leader>", "n", "f"], "commands": ["workbench.files.action.showActiveFileInExplorer"], "when": "editorTextFocus" },
-        { "before": ["<Leader>", "s"], "commands": ["workbench.action.splitEditorDown"] },
-        { "before": ["<Leader>", "v"], "commands": ["workbench.action.splitEditorRight"] },
         { "before": ["ctrl+]"], "commands": ["editor.action.revealDefinition"] },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [

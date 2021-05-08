@@ -99,6 +99,16 @@
         "when": "editorTextFocus && vim.mode == 'Insert'"
     },
     {
+        "key": "s s",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "s v",
+        "command": "workbench.action.splitEditorRight",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
         "key": "m r",
         "command": "renameFile",
         "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
