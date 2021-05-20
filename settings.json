@@ -1,6 +1,8 @@
 {
     "editor.fontSize": 16,
     "workbench.tree.indent": 15,
+    "workbench.editor.showTabs": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
     "vim.useSystemClipboard": true,
     "vim.leader": ",",
     "vim.useCtrlKeys": true,
@@ -39,6 +41,5 @@
         "list.focusBackground": "#5D5D5D"
     },
     "editor.tabSize": 2,
-    "workbench.editor.revealIfOpen": true,
     "editor.wordWrap": "on"
 }
