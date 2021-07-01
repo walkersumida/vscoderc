@@ -6,6 +6,7 @@
         "list.activeSelectionBackground": "#4D4D4D",
         "list.focusBackground": "#5D5D5D"
     },
+    "workbench.list.automaticKeyboardNavigation": false,
     "vim.useSystemClipboard": true,
     "vim.leader": ",",
     "vim.useCtrlKeys": true,

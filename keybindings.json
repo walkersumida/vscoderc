@@ -40,6 +40,11 @@
         "when": "listFocus && !inputFocus"
     },
     {
+        "key": "space",
+        "command": "list.toggleKeyboardNavigation",
+        "when": "listFocus && !inputFocus"
+    },
+    {
         "key": "Enter",
         "command": "list.select",
         "when": "explorerViewletFocus && explorerViewletVisible && !explorerResourceIsFolder && !inputFocus"
