@@ -38,14 +38,14 @@
     "files.autoGuessEncoding": true,
     "files.trimTrailingWhitespace": true,
     "eslint.format.enable": true,
-    "ruby.useBundler": true,
+    "ruby.useBundler": false,
     "ruby.useLanguageServer": true,
     "ruby.lint": {
         "rubocop": {
-            "useBundler": true
+            "useBundler": false
         },
         "reek": {
-            "useBundler": true
+            "useBundler": false
         }
     },
     "ruby.format": "rubocop",
