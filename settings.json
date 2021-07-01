@@ -1,8 +1,11 @@
 {
-    "editor.fontSize": 16,
     "workbench.tree.indent": 15,
     "workbench.editor.showTabs": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.colorCustomizations": {
+        "list.activeSelectionBackground": "#4D4D4D",
+        "list.focusBackground": "#5D5D5D"
+    },
     "vim.useSystemClipboard": true,
     "vim.leader": ",",
     "vim.useCtrlKeys": true,
@@ -34,12 +37,23 @@
     "explorer.autoReveal": false,
     "files.autoGuessEncoding": true,
     "files.trimTrailingWhitespace": true,
+    "eslint.format.enable": true,
+    "ruby.useBundler": true,
+    "ruby.useLanguageServer": true,
+    "ruby.lint": {
+        "rubocop": {
+            "useBundler": true
+        },
+        "reek": {
+            "useBundler": true
+        }
+    },
+    "ruby.format": "rubocop",
+    "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "editor.tokenColorCustomizations": null,
-    "workbench.colorCustomizations": {
-        "list.activeSelectionBackground": "#4D4D4D",
-        "list.focusBackground": "#5D5D5D"
-    },
     "editor.tabSize": 2,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
 }
