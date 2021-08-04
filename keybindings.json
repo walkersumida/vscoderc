@@ -109,8 +109,23 @@
         "when": "editorTextFocus && vim.mode == 'Normal'"
     },
     {
+        "key": "s h",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
         "key": "s v",
         "command": "workbench.action.splitEditorRight",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+w o",
+        "command": "workbench.action.closeEditorsInOtherGroups",
+        "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+w c",
+        "command": "workbench.action.closeEditorsInGroup",
         "when": "editorTextFocus && vim.mode == 'Normal'"
     },
     {
