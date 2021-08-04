@@ -1,5 +1,5 @@
 # VSCode vimrc
-## on macOS
+## Install on macOS
 
 ```
 sh ./install_vscode_settings_for_macos.sh
@@ -20,13 +20,14 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 
 ### Editor mappings
 
-- (s)plit Editor horizontally.: `s s`
+- split Editor (h)orizontally.: `s h`
 - split Editor (v)ertically.: `s v`
 - Move the cursor to the editor above: `ctrl+k`
 - Move the cursor to the right editor: `ctrl+l`
 - Move the cursor to the editor below: `ctrl+j`
 - Move the cursor to the left editor: `ctrl+h`
-- show (o)nly the current editor: `ctrl+w o`
+- close (o)ther editors: `ctrl+w o`
+- close the (c)urrent editor: `ctrl+w c`
 
 ### Normal mode mappings
 - Fast saving of a file: `<leader>w`
