@@ -20,8 +20,8 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 
 ### Editor mappings
 
-- split Editor (h)orizontally.: `s h`
-- split Editor (v)ertically.: `s v`
+- split a editor (h)orizontally.: `s h`
+- split a editor (v)ertically.: `s v`
 - Move the cursor to the editor above: `ctrl+k`
 - Move the cursor to the right editor: `ctrl+l`
 - Move the cursor to the editor below: `ctrl+j`
