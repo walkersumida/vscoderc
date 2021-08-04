@@ -30,6 +30,7 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 - close the (c)urrent editor: `ctrl+w c`
 
 ### Normal mode mappings
+
 - Fast saving of a file: `<leader>w`
 - Toggle explorer: `<leader>nn`
 - Open explorer and focus a current file: `<leader>nf`
@@ -39,7 +40,9 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 - Paste: `p`
 
 ### Visual mode mappings
+
 - Copy: `y`
 
 ### Insert mode mappings
+
 - Set to normal mode: `jj`
