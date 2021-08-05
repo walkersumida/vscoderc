@@ -18,7 +18,7 @@
         "key": "ctrl+k",
         "command": "deleteAllRight",
         "when": "editorTextFocus && vim.mode == 'Insert'"
-    }
+    },
     {
         "key": "ctrl+n",
         "command": "search.action.focusNextSearchResult",

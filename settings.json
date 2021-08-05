@@ -25,7 +25,7 @@
         { "before": ["<Leader>", "e"], "commands": ["workbench.files.action.focusOpenEditorsView"] },
         { "before": ["<Leader>", "g"], "commands": ["workbench.action.findInFiles"] },
         { "before": ["<Leader>", "n", "f"], "commands": ["workbench.files.action.showActiveFileInExplorer"], "when": "editorTextFocus" },
-        { "before": ["ctrl+]"], "commands": ["editor.action.revealDefinition"] },
+        { "before": ["ctrl+]"], "commands": ["editor.action.revealDefinition"] }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         { "before": ["="], "commands": ["editor.action.reindentlines"] },
