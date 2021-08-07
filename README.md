@@ -5,6 +5,8 @@
 sh ./install_vscode_settings_for_macos.sh
 ```
 
+* Please make a backup of your current configuration files before installing.
+
 ## Key Mappings
 
 The leader is `,`, so whenever you see `<leader>` it means `,`.
