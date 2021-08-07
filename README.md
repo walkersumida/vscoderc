@@ -34,6 +34,7 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 - Fast saving of a file: `<leader>w`
 - Toggle explorer: `<leader>nn`
 - Open explorer and focus a current file: `<leader>nf`
+- (f)ind a file by name: `ctrl+f`
 - Search in a file: `<space>`
 - Search in all files: `<leader>g`
 - Jump to definition: `ctrl+]`
