@@ -44,7 +44,7 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 - (f)ind a file by name: `ctrl+f`
 - Search in a file: `<space>`
 - Jump to definition: `ctrl+]`
-- Paste: `p`
+- Paste: `p` or `shift+p`
 
 ### Visual mode mappings
 
