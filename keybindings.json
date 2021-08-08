@@ -10,6 +10,11 @@
         "when": "!inputFocus || editorTextFocus && vim.mode == 'Normal'"
     },
     {
+        "key": "Enter",
+        "command": "search.action.openInEditor",
+        "when": "hasSearchResult && searchViewletFocus && vim.mode == 'Normal'"
+    },
+    {
         "key": "ctrl+d",
         "command": "deleteRight",
         "when": "editorTextFocus && vim.mode == 'Insert'"
