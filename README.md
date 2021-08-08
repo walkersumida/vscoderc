@@ -31,6 +31,11 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 - close (o)ther editors: `ctrl+w o`
 - close the (c)urrent editor: `ctrl+w c`
 
+### Search Editor mappings
+- Search in all files: `<leader>g`
+- Open Results in Editor: `Enter` (on Search Box)
+- Go to the target file: `ctrl+]` (on Search Results)
+
 ### Normal mode mappings
 
 - Fast saving of a file: `<leader>w`
@@ -38,7 +43,6 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 - Open explorer and focus a current file: `<leader>nf`
 - (f)ind a file by name: `ctrl+f`
 - Search in a file: `<space>`
-- Search in all files: `<leader>g`
 - Jump to definition: `ctrl+]`
 - Paste: `p`
 
