@@ -53,3 +53,16 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 ### Insert mode mappings
 
 - Set to normal mode: `jj`
+
+## Development
+### Init
+
+```
+yarn install
+```
+
+### Run
+
+```
+yarn run watch
+```
