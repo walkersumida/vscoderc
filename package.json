@@ -1,0 +1,15 @@
+{
+  "name": "vscoderc",
+  "version": "1.0.0",
+  "description": "VSCode vimrc",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.js --watch"
+  },
+  "author": "walkersumida@gmail.com",
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-merge": "~4.2.2"
+  }
+}
