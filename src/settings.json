@@ -13,8 +13,8 @@
     "vim.autoindent": true,
     "vim.whichwrap": "h,l,<,>,[,]",
     "vim.normalModeKeyBindingsNonRecursive": [
-        { "before": ["j"], "after": ["g", "j"]   },
-        { "before": ["k"], "after": ["g", "k"]   },
+        { "before": ["j"], "after": ["g", "j"] },
+        { "before": ["k"], "after": ["g", "k"] },
         { "before": ["<Leader>", "w"], "commands": [":w!"] },
         { "before": ["<Leader>", "n", "n"], "commands": ["workbench.view.explorer"],
             "when": ["!explorerViewletVisible && vim.mode != 'SearchInProgressMode' && vim.mode != 'Insert'"] },
@@ -29,7 +29,7 @@
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         { "before": ["="], "commands": ["editor.action.reindentlines"] },
-        { "before": ["<"], "commands": ["editor.action.outdentLines"]},
+        { "before": ["<"], "commands": ["editor.action.outdentLines"] },
         { "before": ["p"], "after": ["p","g","v","y"] }
     ],
     "vim.insertModeKeyBindings": [
