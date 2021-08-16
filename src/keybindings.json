@@ -1,5 +1,9 @@
 [
     {
+        "key": "cmd+k",
+        "command": "workbench.action.showCommands"
+    },
+    {
         "key": "ctrl+f",
         "command": "workbench.action.quickOpen",
         "when": "!inputFocus || editorTextFocus && vim.mode == 'Normal'"
