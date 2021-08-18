@@ -32,6 +32,7 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 - close the (c)urrent editor: `ctrl+w c`
 
 ### Search Editor mappings
+
 - Search in all files: `<leader>g`
 - Open Results in Editor: `Enter` (on Search Box)
 - Go to the target file: `ctrl+]` (on Search Results)
@@ -53,6 +54,12 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 ### Insert mode mappings
 
 - Set to normal mode: `jj`
+
+### Debug mode mappings
+
+- Show Hover: `ctrl+i`
+
+<img width="784" alt="image" src="https://user-images.githubusercontent.com/12683375/129901538-76285a00-56cd-4c97-8f08-948ad0675e89.png">
 
 ## Development
 ### Init
