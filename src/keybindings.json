@@ -80,7 +80,12 @@
     {
         "key": "ctrl+i",
         "command": "editor.action.showHover",
-        "when": "vim.mode == 'Normal'"
+        "when": "vim.mode == 'Normal' && !inDebugMode"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "editor.debug.action.showDebugHover",
+        "when": "editorTextFocus && inDebugMode"
     },
     {
         "key": "ctrl+j",
