@@ -37,6 +37,17 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 - Open Results in Editor: `Enter` (on Search Box)
 - Go to the target file: `ctrl+]` (on Search Results)
 
+### Terminal mappings
+
+- Focus Next Terminal: `ctrl+w l` (on Terminal)
+- Focus Previous Terminal: `ctrl+w h` (on Terminal)
+
+![image](https://user-images.githubusercontent.com/12683375/130454994-1dfafb4a-6db1-4756-9753-dcf16e31eccf.png)
+
+
+- Increase Terminal size: `ctrl+e k` (on Terminal)
+- Decrease Terminal size: `ctrl+e j` (on Terminal)
+
 ### Normal mode mappings
 
 - Fast saving of a file: `<leader>w`
