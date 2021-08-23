@@ -108,6 +108,16 @@
         "when": "vim.mode == 'Normal'"
     },
     {
+        "key": "ctrl+w h",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+w l",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
         "key": "ctrl+e",
         "command": "cursorEnd",
         "when": "editorTextFocus && vim.mode == 'Insert'"
@@ -141,6 +151,16 @@
         "key": "ctrl+w c",
         "command": "workbench.action.closeEditorsInGroup",
         "when": "editorTextFocus && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+e k",
+        "command": "workbench.action.increaseViewSize",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+e j",
+        "command": "workbench.action.decreaseViewSize",
+        "when": "terminalFocus"
     },
     {
         "key": "m r",
