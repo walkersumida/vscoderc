@@ -8,6 +8,7 @@
     },
     "workbench.list.automaticKeyboardNavigation": false,
     "terminal.integrated.fontSize": 16,
+    "terminal.integrated.tabs.enabled": false,
     "vim.useSystemClipboard": true,
     "vim.leader": ",",
     "vim.useCtrlKeys": true,
