@@ -100,12 +100,12 @@
     {
         "key": "ctrl+h",
         "command": "workbench.action.navigateLeft",
-        "when": "vim.mode == 'Normal' && editorTextFocus"
+        "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor' || vim.mode == 'Normal' && editorTextFocus"
     },
     {
         "key": "ctrl+l",
         "command": "workbench.action.navigateRight",
-        "when": "vim.mode == 'Normal'"
+        "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor' ||  || vim.mode == 'Normal' && editorTextFocus"
     },
     {
         "key": "ctrl+w h",
