@@ -34,7 +34,7 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 ### Search Editor mappings
 
 - Search in all files: `<leader>g`
-- Open Results in Editor: `Enter` (on Search Box)
+- Open Results in Editor: `<enter>` (on Search Box)
 - Go to the target file: `ctrl+]` (on Search Results)
 
 ### Terminal mappings
@@ -55,6 +55,9 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 - Open explorer and focus a current file: `<leader>nf`
 - (f)ind a file by name: `ctrl+f`
 - Search in a file: `<space>`
+  - Focus next a search result: `n`
+  - Focus previous a search result: `shift+n`
+  - Clear search highlights: `<leader><enter>`
 - Jump to definition: `ctrl+]`
 - Paste: `p` or `shift+p`
 

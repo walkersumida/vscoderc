@@ -15,6 +15,7 @@
     "vim.autoindent": true,
     "vim.whichwrap": "h,l,<,>,[,]",
     "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["<Leader>", "<Enter>"], "commands": [":nohl"] },
         { "before": ["j"], "after": ["g", "j"] },
         { "before": ["k"], "after": ["g", "k"] },
         { "before": ["<Leader>", "w"], "commands": [":w!"] },
@@ -37,6 +38,9 @@
     "vim.insertModeKeyBindings": [
         { "before": ["j", "j"], "after": ["<Esc>"] }
     ],
+    "vim.hlsearch": true,
+    "vim.searchHighlightTextColor": "#1C1C1C",
+    "vim.searchHighlightColor": "#A37E02",
     "explorer.autoReveal": false,
     "explorer.openEditors.visible": 0,
     "files.autoGuessEncoding": true,
