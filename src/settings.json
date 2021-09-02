@@ -38,6 +38,7 @@
         { "before": ["j", "j"], "after": ["<Esc>"] }
     ],
     "explorer.autoReveal": false,
+    "explorer.openEditors.visible": 0,
     "files.autoGuessEncoding": true,
     "files.trimTrailingWhitespace": true,
     "eslint.format.enable": true,
