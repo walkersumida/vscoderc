@@ -4,7 +4,8 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.colorCustomizations": {
         "list.activeSelectionBackground": "#4D4D4D",
-        "list.focusBackground": "#5D5D5D"
+        "list.focusBackground": "#5D5D5D",
+        "editorWhitespace.foreground": "#8C8C8C"
     },
     "workbench.list.automaticKeyboardNavigation": false,
     "terminal.integrated.fontSize": 16,
@@ -36,6 +37,7 @@
         { "before": ["p"], "after": ["p","g","v","y"] }
     ],
     "vim.insertModeKeyBindings": [
+        { "before": ["ctrl+i"], "after": ["\t"] },
         { "before": ["j", "j"], "after": ["<Esc>"] }
     ],
     "vim.hlsearch": true,
@@ -46,6 +48,9 @@
     "files.autoGuessEncoding": true,
     "files.trimTrailingWhitespace": true,
     "eslint.format.enable": true,
+    "[go]": {
+        "editor.renderWhitespace": "boundary",
+    },
     "ruby.useBundler": false,
     "ruby.useLanguageServer": true,
     "ruby.lint": {
