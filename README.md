@@ -34,7 +34,7 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 ### Search Editor mappings
 
 - Search in all files: `<leader>g`
-- Open Results in Editor: `Enter` (on Search Box)
+- Open Results in Editor: `<enter>` (on Search Box)
 - Go to the target file: `ctrl+]` (on Search Results)
 
 ### Terminal mappings
