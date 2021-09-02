@@ -15,6 +15,7 @@
     "vim.autoindent": true,
     "vim.whichwrap": "h,l,<,>,[,]",
     "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["<Leader>", "<Enter>"], "commands": [":nohl"] },
         { "before": ["j"], "after": ["g", "j"] },
         { "before": ["k"], "after": ["g", "k"] },
         { "before": ["<Leader>", "w"], "commands": [":w!"] },
