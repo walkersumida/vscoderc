@@ -45,6 +45,10 @@
     "vim.searchHighlightColor": "#A37E02",
     "explorer.autoReveal": false,
     "explorer.openEditors.visible": 0,
+    "files.exclude": {
+        "**/.git": false,
+        "**/.DS_Store": false
+    },
     "files.autoGuessEncoding": true,
     "files.trimTrailingWhitespace": true,
     "eslint.format.enable": true,
