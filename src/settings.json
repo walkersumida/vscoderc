@@ -68,7 +68,7 @@
     "go.useLanguageServer": true,
     "go.docsTool": "godoc",
     "[go]": {
-        "editor.renderWhitespace": "boundary",
+        "editor.renderWhitespace": "boundary"
     },
     "ruby.useBundler": false,
     "ruby.useLanguageServer": true,
