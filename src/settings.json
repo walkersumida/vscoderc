@@ -56,15 +56,8 @@
     "files.trimTrailingWhitespace": true,
     "eslint.format.enable": true,
     "go.autocompleteUnimportedPackages": true,
-    "go.lintTool": "golint",
-    "go.lintOnSave": "package",
-    "go.vetOnSave": "package",
-    "go.buildOnSave": "package",
     "go.formatOnSave": true,
     "go.formatTool": "goimports",
-    "go.formatFlags": [
-        "-w"
-    ],
     "go.useLanguageServer": true,
     "go.docsTool": "godoc",
     "[go]": {
