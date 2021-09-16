@@ -45,6 +45,7 @@
     "vim.searchHighlightColor": "#A37E02",
     "explorer.autoReveal": false,
     "explorer.openEditors.visible": 0,
+    "explorer.compactFolders": false,
     "search.exclude": {
         "**/.git": true
     },
