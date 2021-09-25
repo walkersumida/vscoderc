@@ -4,6 +4,11 @@
 ```
 sh ./install_vscode_settings_for_macos.sh
 ```
+## Install on Linux
+
+```
+sh ./install_vscode_settings_for_linux.sh
+```
 
 * Please make a backup of your current configuration files before installing.
 
