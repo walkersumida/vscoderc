@@ -44,8 +44,8 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 
 ### Terminal mappings
 
-- Focus Next Terminal: `ctrl+w l` (on Terminal)
-- Focus Previous Terminal: `ctrl+w h` (on Terminal)
+- Focus Next Terminal: `shift+cmd+[` (on Terminal)
+- Focus Previous Terminal: `shift+cmd+]` (on Terminal)
 
 ![image](https://user-images.githubusercontent.com/12683375/130454994-1dfafb4a-6db1-4756-9753-dcf16e31eccf.png)
 
