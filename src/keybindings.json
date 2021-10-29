@@ -163,6 +163,11 @@
         "when": "terminalFocus"
     },
     {
+        "key": "ctrl+l",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus && terminalProcessSupported"
+    },
+    {
         "key": "m r",
         "command": "renameFile",
         "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
