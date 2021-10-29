@@ -108,12 +108,12 @@
         "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor' ||  || vim.mode == 'Normal'"
     },
     {
-        "key": "ctrl+w h",
+        "key": "shift+cmd+[",
         "command": "workbench.action.terminal.focusPreviousPane",
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+w l",
+        "key": "shift+cmd+]",
         "command": "workbench.action.terminal.focusNextPane",
         "when": "terminalFocus"
     },
