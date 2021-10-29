@@ -2,9 +2,10 @@
     "workbench.tree.indent": 15,
     "workbench.editor.showTabs": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.colorTheme": "Dark+",
     "workbench.colorCustomizations": {
-        "list.activeSelectionBackground": "#4D4D4D",
         "list.focusBackground": "#5D5D5D",
+        "list.inactiveSelectionBackground": "#252526",
         "editorWhitespace.foreground": "#8C8C8C"
     },
     "workbench.list.automaticKeyboardNavigation": false,
