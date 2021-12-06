@@ -57,6 +57,7 @@
     "files.autoGuessEncoding": true,
     "files.trimTrailingWhitespace": true,
     "eslint.format.enable": true,
+    "go.testEnvFile": "${workspaceRoot}/.env",
     "go.autocompleteUnimportedPackages": true,
     "go.formatOnSave": true,
     "go.formatTool": "goimports",
