@@ -88,6 +88,11 @@
         "when": "editorTextFocus && inDebugMode"
     },
     {
+        "key": "ctrl+i",
+        "command": "tab",
+        "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus && vim.mode == 'Insert'"
+    },
+    {
         "key": "ctrl+j",
         "command": "workbench.action.navigateDown",
         "when": "vim.mode == 'Normal'"
