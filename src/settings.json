@@ -38,7 +38,6 @@
         { "before": ["p"], "after": ["p","g","v","y"] }
     ],
     "vim.insertModeKeyBindings": [
-        { "before": ["ctrl+i"], "after": ["\t"] },
         { "before": ["j", "j"], "after": ["<Esc>"] }
     ],
     "vim.hlsearch": true,
