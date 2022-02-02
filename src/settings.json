@@ -30,6 +30,7 @@
         { "before": ["<Leader>", "e"], "commands": ["workbench.files.action.focusOpenEditorsView"] },
         { "before": ["<Leader>", "g"], "commands": ["workbench.action.findInFiles"] },
         { "before": ["<Leader>", "n", "f"], "commands": ["workbench.files.action.showActiveFileInExplorer"], "when": "editorTextFocus" },
+        { "before": ["<Leader>", "n", "v"], "commands": ["workbench.debug.action.focusVariablesView"], "when": "editorTextFocus && inDebugMode" },
         { "before": ["ctrl+]"], "commands": ["editor.action.revealDefinition"] }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
