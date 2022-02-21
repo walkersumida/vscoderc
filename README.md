@@ -80,6 +80,10 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 
 <img width="784" alt="image" src="https://user-images.githubusercontent.com/12683375/129901538-76285a00-56cd-4c97-8f08-948ad0675e89.png">
 
+### Show autocomplete list before typing
+
+`shift+space`
+
 ## Development
 ### Init
 
