@@ -64,6 +64,7 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
   - Focus previous a search result: `shift+n`
   - Clear search highlights: `<leader><enter>`
 - Jump to definition: `ctrl+]`
+- Open definition to the side: `ctrl+cmd+]`
 - Paste: `p` or `shift+p`
 
 ### Visual mode mappings
