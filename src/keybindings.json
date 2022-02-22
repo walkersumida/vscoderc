@@ -5,6 +5,11 @@
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
     },
     {
+        "key": "ctrl+cmd+]",
+        "command": "editor.action.revealDefinitionAside",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
         "key": "cmd+k",
         "command": "workbench.action.showCommands"
     },
