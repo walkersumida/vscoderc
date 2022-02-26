@@ -5,6 +5,11 @@
         "when": "editorTextFocus && vim.active && vim.use<C-v> && !inDebugRepl"
     },
     {
+        "key": "ctrl+y",
+        "command": "execPaste",
+        "when": "filesExplorerFocus && inputFocus"
+    },
+    {
         "key": "shift+space",
         "command": "editor.action.triggerSuggest",
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
