@@ -10,6 +10,11 @@
         "when": "filesExplorerFocus && inputFocus"
     },
     {
+        "key": "ctrl+y",
+        "command": "execPaste",
+        "when": "searchViewletFocus && vim.mode == 'Normal'"
+    },
+    {
         "key": "shift+space",
         "command": "editor.action.triggerSuggest",
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
