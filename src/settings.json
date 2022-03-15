@@ -9,7 +9,7 @@
         "editorWhitespace.foreground": "#8C8C8C"
     },
     "workbench.list.automaticKeyboardNavigation": false,
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 19,
     "terminal.integrated.tabs.enabled": false,
     "vim.useSystemClipboard": true,
     "vim.leader": ",",
@@ -77,7 +77,7 @@
         }
     },
     "ruby.format": "rubocop",
-    "editor.fontSize": 16,
+    "editor.fontSize": 19,
     "editor.minimap.enabled": false,
     "editor.tokenColorCustomizations": null,
     "editor.tabSize": 2,
