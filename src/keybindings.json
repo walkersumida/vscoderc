@@ -34,6 +34,10 @@
         "command": "workbench.action.showCommands"
     },
     {
+        "key": "cmd+o",
+        "command": "editor.action.openLink"
+    },
+    {
         "key": "ctrl+f",
         "command": "workbench.action.quickOpen",
         "when": "!inputFocus || editorTextFocus && vim.mode == 'Normal'"
