@@ -77,6 +77,14 @@
         }
     },
     "ruby.format": "rubocop",
+    "indentRainbow.colors": [
+        "rgba(128,  64,  64, 0.5)", // Red
+        "rgba(128,  96,  32, 0.5)", // Orange
+        "rgba(128, 128,  32, 0.5)", // Yellow
+        "rgba( 32, 128,  32, 0.5)", // Green
+        "rgba( 32,  64, 128, 0.5)", // Blue
+        "rgba(128,  64, 128, 0.5)"  // Purple
+    ],
     "editor.fontSize": 19,
     "editor.minimap.enabled": false,
     "editor.tokenColorCustomizations": null,
