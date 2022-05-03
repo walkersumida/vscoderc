@@ -55,6 +55,7 @@
     },
     "files.autoGuessEncoding": true,
     "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
     "eslint.format.enable": true,
     "go.testEnvFile": "${workspaceRoot}/.env",
     "go.autocompleteUnimportedPackages": true,
