@@ -95,5 +95,5 @@ yarn install
 ### Run
 
 ```
-yarn run watch
+yarn dev
 ```

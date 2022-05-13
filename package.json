@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "VSCode vimrc",
   "scripts": {
-    "watch": "webpack --config webpack/webpack.js --watch"
+    "dev": "webpack --config webpack/webpack.js --watch"
   },
   "author": "walkersumida@gmail.com",
   "devDependencies": {
