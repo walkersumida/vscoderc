@@ -20,6 +20,10 @@
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
     },
     {
+        "key": "shift+cmd+j",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
         "key": "ctrl+]",
         "command": "editor.action.revealDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
