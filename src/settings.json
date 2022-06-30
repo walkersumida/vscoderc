@@ -9,7 +9,7 @@
         "editorWhitespace.foreground": "#8C8C8C"
     },
     "workbench.list.automaticKeyboardNavigation": false,
-    "terminal.integrated.fontSize": 19,
+    "terminal.integrated.fontSize": 16,
     "terminal.integrated.tabs.enabled": false,
     "vim.useSystemClipboard": true,
     "vim.leader": ",",
@@ -90,7 +90,7 @@
         "rgba( 32,  64, 128, 0.5)", // Blue
         "rgba(128,  64, 128, 0.5)"  // Purple
     ],
-    "editor.fontSize": 19,
+    "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "editor.tokenColorCustomizations": null,
     "editor.tabSize": 2,
