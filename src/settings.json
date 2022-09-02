@@ -82,6 +82,10 @@
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "hashicorp.terraform"
     },
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter",
+        "sql-formatter.uppercase": true
+    },
     "indentRainbow.colors": [
         "rgba(128,  64,  64, 0.5)", // Red
         "rgba(128,  96,  32, 0.5)", // Orange
