@@ -148,6 +148,11 @@
     },
     {
         "key": "ctrl+h",
+        "command": "workbench.debug.action.focusVariablesView",
+        "when": "!inputFocus && inDebugMode"
+    },
+    {
+        "key": "ctrl+h",
         "command": "workbench.action.navigateLeft",
         "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor' || vim.mode == 'Normal' && editorTextFocus"
     },
