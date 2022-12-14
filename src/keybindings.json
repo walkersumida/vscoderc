@@ -20,6 +20,11 @@
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
     },
     {
+        "key": "shift+space",
+        "command": "workbench.action.terminal.runRecentCommand",
+        "when": "terminalFocus"
+    },
+    {
         "key": "shift+cmd+j",
         "command": "workbench.action.toggleMaximizedPanel",
         "when": "!searchViewletFocus"
