@@ -164,7 +164,7 @@
     {
         "key": "ctrl+l",
         "command": "workbench.action.navigateRight",
-        "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor' ||  || vim.mode == 'Normal'"
+        "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor' || vim.mode == 'Normal'"
     },
     {
         "key": "shift+cmd+[",
