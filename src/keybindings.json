@@ -25,6 +25,11 @@
         "when": "terminalFocus"
     },
     {
+        "key": "shift+k",
+        "command": "editor.action.showHover",
+        "when": "editorFocus && (neovim.mode == normal || vim.mode == 'Normal')"
+    },
+    {
         "key": "shift+cmd+j",
         "command": "workbench.action.toggleMaximizedPanel",
         "when": "!searchViewletFocus"
