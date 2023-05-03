@@ -172,6 +172,16 @@
         "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor' || vim.mode == 'Normal'"
     },
     {
+        "key": "ctrl+cmd+l",
+        "command": "workbench.action.moveEditorToNextGroup",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+cmd+h",
+        "command": "workbench.action.moveEditorToPreviousGroup",
+        "when": "editorFocus"
+    },
+    {
         "key": "shift+cmd+[",
         "command": "workbench.action.terminal.focusPreviousPane",
         "when": "terminalFocus"
