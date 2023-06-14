@@ -27,7 +27,7 @@
     {
         "key": "shift+k",
         "command": "editor.action.showHover",
-        "when": "editorFocus && (neovim.mode == normal || vim.mode == 'Normal')"
+        "when": "textInputFocus && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "shift+cmd+j",
