@@ -1,5 +1,16 @@
 [
     {
+        "command": "vscode-neovim.compositeEscape1",
+        "key": "j",
+        "when": "neovim.mode == insert && editorTextFocus",
+        "args": "j"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "execPaste",
+        "when": "!editorTextFocus && !inDebugRepl"
+    },
+    {
         "key": "ctrl+y",
         "command": "extension.vim_ctrl+v",
         "when": "editorTextFocus && vim.active && vim.use<C-v> && !inDebugRepl"
@@ -12,7 +23,7 @@
     {
         "key": "ctrl+y",
         "command": "execPaste",
-        "when": "searchViewletFocus && vim.mode == 'Normal'"
+        "when": "searchViewletFocus && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "shift+space",
@@ -55,37 +66,37 @@
     {
         "key": "ctrl+f",
         "command": "workbench.action.quickOpen",
-        "when": "!inputFocus || editorTextFocus && vim.mode == 'Normal'"
+        "when": "!inputFocus || editorTextFocus && (neovim.mode == 'normal' || vim.mode == 'Normal')"
     },
     {
         "key": "ctrl+b",
         "command": "workbench.action.quickOpen",
-        "when": "!inputFocus || editorTextFocus && vim.mode == 'Normal'"
+        "when": "!inputFocus || editorTextFocus && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "Enter",
         "command": "search.action.openInEditor",
-        "when": "hasSearchResult && searchViewletFocus && vim.mode == 'Normal'"
+        "when": "hasSearchResult && searchViewletFocus && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "ctrl+d",
         "command": "deleteRight",
-        "when": "editorTextFocus && vim.mode == 'Insert'"
+        "when": "editorTextFocus && (neovim.mode == insert || vim.mode == 'Insert')"
     },
     {
         "key": "ctrl+k",
         "command": "deleteAllRight",
-        "when": "editorTextFocus && vim.mode == 'Insert'"
+        "when": "editorTextFocus && (neovim.mode == insert || vim.mode == 'Insert')"
     },
     {
         "key": "ctrl+n",
         "command": "search.action.focusNextSearchResult",
-        "when": "inSearchEditor && vim.mode == 'Normal'"
+        "when": "inSearchEditor && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "ctrl+p",
         "command": "search.action.focusPreviousSearchResult",
-        "when": "inSearchEditor && vim.mode == 'Normal'"
+        "when": "inSearchEditor && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "j",
@@ -129,7 +140,7 @@
     {
         "key": "ctrl+i",
         "command": "editor.action.showHover",
-        "when": "vim.mode == 'Normal' && !inDebugMode"
+        "when": "!inDebugMode && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "ctrl+i",
@@ -144,17 +155,17 @@
     {
         "key": "ctrl+i",
         "command": "tab",
-        "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus && vim.mode == 'Insert'"
+        "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus && (neovim.mode == insert || vim.mode == 'Insert')"
     },
     {
         "key": "ctrl+j",
         "command": "workbench.action.navigateDown",
-        "when": "vim.mode == 'Normal'"
+        "when": "neovim.mode == normal || vim.mode == 'Normal'"
     },
     {
         "key": "ctrl+k",
         "command": "workbench.action.navigateUp",
-        "when": "vim.mode == 'Normal'"
+        "when": "neovim.mode == normal || vim.mode == 'Normal'"
     },
     {
         "key": "ctrl+h",
@@ -164,12 +175,17 @@
     {
         "key": "ctrl+h",
         "command": "workbench.action.navigateLeft",
+        "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor' || neovim.mode == normal && editorTextFocus"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft",
         "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor' || vim.mode == 'Normal' && editorTextFocus"
     },
     {
         "key": "ctrl+l",
         "command": "workbench.action.navigateRight",
-        "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor' || vim.mode == 'Normal'"
+        "when": "explorerViewletFocus && explorerViewletVisible || (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "ctrl+cmd+l",
@@ -194,37 +210,47 @@
     {
         "key": "ctrl+e",
         "command": "cursorEnd",
-        "when": "editorTextFocus && vim.mode == 'Insert'"
+        "when": "editorTextFocus && (neovim.mode == insert || vim.mode == 'Insert')"
     },
     {
         "key": "ctrl+a",
         "command": "cursorHome",
-        "when": "editorTextFocus && vim.mode == 'Insert'"
+        "when": "editorTextFocus && (neovim.mode == insert || vim.mode == 'Insert')"
     },
     {
         "key": "s s",
         "command": "workbench.action.splitEditorDown",
-        "when": "editorTextFocus && vim.mode == 'Normal'"
+        "when": "editorTextFocus && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "s h",
         "command": "workbench.action.splitEditorDown",
-        "when": "editorTextFocus && vim.mode == 'Normal'"
+        "when": "editorTextFocus && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "s v",
         "command": "workbench.action.splitEditorRight",
-        "when": "editorTextFocus && vim.mode == 'Normal'"
+        "when": "editorTextFocus && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "ctrl+w o",
         "command": "workbench.action.closeEditorsInOtherGroups",
-        "when": "editorTextFocus && vim.mode == 'Normal'"
+        "when": "editorTextFocus && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "ctrl+w c",
         "command": "workbench.action.closeEditorsInGroup",
-        "when": "editorTextFocus && vim.mode == 'Normal'"
+        "when": "editorTextFocus && (neovim.mode == normal || vim.mode == 'Normal')"
+    },
+    {
+        "key": "ctrl+e l",
+        "command": "workbench.action.increaseViewWidth",
+        "when": "editorTextFocus && (neovim.mode == normal || vim.mode == 'Normal')"
+    },
+    {
+        "key": "ctrl+e h",
+        "command": "workbench.action.decreaseViewWidth",
+        "when": "editorTextFocus && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "ctrl+e k",
