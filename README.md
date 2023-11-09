@@ -14,7 +14,7 @@ sh ./install_vscode_settings_for_linux.sh
 
 ## Key Mappings
 
-The leader is `,`, so whenever you see `<leader>` it means `,`.
+The leader is `<space>`, so whenever you see `<leader>` it means `<space>`.
 
 ### File mappings on Explorer
 
@@ -59,7 +59,7 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 - Toggle explorer: `<leader>nn`
 - Open explorer and focus a current file: `<leader>nf`
 - (f)ind a file by name: `ctrl+f`
-- Search in a file: `<space>`
+- Search in a file: `/`
   - Focus next a search result: `n`
   - Focus previous a search result: `shift+n`
   - Clear search highlights: `<leader><enter>`
@@ -77,7 +77,7 @@ The leader is `,`, so whenever you see `<leader>` it means `,`.
 
 ### Debug mode mappings
 
-- Show Hover: `ctrl+i`
+- Show Hover: `g h`
 
 <img width="784" alt="image" src="https://user-images.githubusercontent.com/12683375/129901538-76285a00-56cd-4c97-8f08-948ad0675e89.png">
 

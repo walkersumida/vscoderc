@@ -12,7 +12,7 @@
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.tabs.enabled": false,
     "vim.useSystemClipboard": true,
-    "vim.leader": ",",
+    "vim.leader": " ",
     "vim.useCtrlKeys": true,
     "vim.autoindent": true,
     "vim.whichwrap": "h,l,<,>,[,]",
@@ -25,8 +25,6 @@
             "when": ["!explorerViewletVisible && vim.mode != 'SearchInProgressMode' && vim.mode != 'Insert'"] },
         { "before": ["<Leader>", "n", "n"], "commands": ["workbench.action.toggleSidebarVisibility"],
             "when": ["explorerViewletVisible && !searchViewletVisible && !inDebugMode && vim.mode != 'SearchInProgressMode' && vim.mode != 'Insert'"] },
-        { "before": [";"], "after": [":"] },
-        { "before": ["<space>"], "after": ["/"] },
         { "before": ["<Leader>", "e"], "commands": ["workbench.files.action.focusOpenEditorsView"] },
         { "before": ["<Leader>", "g"], "commands": ["workbench.action.findInFiles"] },
         { "before": ["<Leader>", "n", "f"], "commands": ["workbench.files.action.showActiveFileInExplorer"], "when": "editorTextFocus" },
@@ -110,5 +108,15 @@
     "editor.wordWrap": "on",
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.formatOnSave": true,
-    "window.newWindowDimensions": "inherit"
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "window.newWindowDimensions": "inherit",
+    "macros": {
+      "rerunCommand": [
+        "workbench.action.showCommands",
+        "workbench.action.acceptSelectedQuickOpenItem"
+
+      ]
+    }
 }

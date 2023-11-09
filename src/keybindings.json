@@ -1,5 +1,9 @@
 [
     {
+        "key": "ctrl+.",
+        "command": "macros.rerunCommand"
+    },
+    {
         "command": "vscode-neovim.compositeEscape1",
         "key": "j",
         "when": "neovim.mode == insert && editorTextFocus",
@@ -138,12 +142,7 @@
         "when": "openEditorsFocus"
     },
     {
-        "key": "ctrl+i",
-        "command": "editor.action.showHover",
-        "when": "!inDebugMode && (neovim.mode == normal || vim.mode == 'Normal')"
-    },
-    {
-        "key": "ctrl+i",
+        "key": "g h",
         "command": "editor.debug.action.showDebugHover",
         "when": "editorTextFocus && inDebugMode"
     },
@@ -156,6 +155,16 @@
         "key": "ctrl+i",
         "command": "tab",
         "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus && (neovim.mode == insert || vim.mode == 'Insert')"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "cursorUndo",
+        "when": "neovim.mode == normal || vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "cursorRedo",
+        "when": "neovim.mode == normal || vim.mode == 'Normal'"
     },
     {
         "key": "ctrl+j",
