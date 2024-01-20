@@ -163,11 +163,6 @@
         "when": "openEditorsFocus"
     },
     {
-        "key": "g h",
-        "command": "editor.debug.action.showDebugHover",
-        "when": "editorTextFocus && inDebugMode"
-    },
-    {
         "key": "ctrl+i",
         "command": "workbench.action.search.toggleQueryDetails",
         "when": "inSearchEditor || searchViewletFocus"
