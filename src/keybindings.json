@@ -10,6 +10,7 @@
         "command": "cursorDown",
         "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
     },
+
     {
         "key": "k",
         "command": "cursorUp",
@@ -108,11 +109,19 @@
         "command": "deleteRight",
         "when": "editorTextFocus && (neovim.mode == insert || vim.mode == 'Insert')"
     },
+
+    // https://github.com/VSCodeVim/Vim/issues/908
+    {
+        "key": "ctrl+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+    },
     {
         "key": "ctrl+k",
-        "command": "deleteAllRight",
-        "when": "editorTextFocus && (neovim.mode == insert || vim.mode == 'Insert')"
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
     },
+
     {
         "key": "ctrl+n",
         "command": "search.action.focusNextSearchResult",
