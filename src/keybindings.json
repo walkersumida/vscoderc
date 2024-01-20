@@ -179,13 +179,13 @@
     },
     {
         "key": "ctrl+o",
-        "command": "cursorUndo",
-        "when": "neovim.mode == normal || vim.mode == 'Normal'"
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "ctrl+i",
-        "command": "cursorRedo",
-        "when": "neovim.mode == normal || vim.mode == 'Normal'"
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward && (neovim.mode == normal || vim.mode == 'Normal')"
     },
     {
         "key": "ctrl+j",
